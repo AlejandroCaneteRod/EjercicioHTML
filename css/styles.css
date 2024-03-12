@@ -1,0 +1,97 @@
+
+img {
+    width: 500px;
+    border-radius: 20px;
+}
+nav ul {
+    list-style-type: none; /* Quitamos las viñetas de la lista */
+}
+nav li {
+    display: inline; /* Ítems del menú en una línea horizontal */ 
+}
+
+
+header {
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.pinterest-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px; /* Tamaño de la fuente del logo */
+    color: #e60023; /* Color rojo de Pinterest */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+
+nav ul li a {
+    color: #000; /* Color de texto negro */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de la fuente */
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+nav ul li a:hover {
+    color: #e60023; /* Cambia el color al rojo de Pinterest al pasar el ratón */
+}
+
+.destacadas {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#imgPint {
+    width: 33px;
+    margin: auto
+}
+
+.cent {
+    text-align: center; /* Alinea el contenido del div al centro */
+    margin: auto; /* Establece márgenes automáticos para centrarlo horizontalmente */
+    width: 50%; /* Define un ancho para el div */
+}
+
+#search-input {
+    border: 2px solid #ccc; /* Borde sólido de 2px de ancho y color gris */
+    border-radius: 24px; /* Bordes redondeados */
+    padding: 8px; /* Espaciado interno */
+    width: 800px; /* Ancho del input */
+    padding: 15px
+}
+
+#iniSesion {
+    border: 0px solid white;
+    border-radius: 40px;
+    color: white;
+   background-color: coral;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ 
+.box {
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap;
+    }
+
+.margen {
+    margin:15px;
+}
